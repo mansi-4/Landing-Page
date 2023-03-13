@@ -47,12 +47,12 @@ function ContactUs() {
             </li> */}
             <li>
                 <div className="icon"><span className="mai-mail"></span></div>
-                <div className="content"><p>offline2online@gmail.com</p></div>
+                <div className="content"><p>offlinetoonline@gmail.com</p></div>
             </li>
-            <li>
+            {/* <li>
                 <div className="icon"><span className="mai-phone-portrait"></span></div>
                 <div className="content"><p>+91 111 1111 111</p></div>
-            </li>
+            </li> */}
             </ul>
         </div>
         <div className="col-lg-6 py-3 wow fadeInUp">
@@ -60,7 +60,7 @@ function ContactUs() {
             <h2 className="title-section">Drop Us a Line</h2>
             <div className="divider"></div>
             
-            {/* <form > */}
+            <form onSubmit={submitHandler}>
             {loading && <Loader />}
             {error && <Message variant='danger'>{"Please try again later!"}</Message>}
             {success && <Message variant='danger'>{custom}</Message>}
@@ -73,8 +73,8 @@ function ContactUs() {
             <div className="py-2">
                 <textarea rows="6" className="form-control" placeholder="Enter message" value={message} onChange={(e)=>setMessage(e.target.value)}></textarea>
             </div>
-            <button type="button" onClick={submitHandler} className="btn btn-primary rounded-pill mt-4">Send Message</button>
-            {/* </form> */}
+            <button type="submit" className="btn btn-primary rounded-pill mt-4">Send Message</button>
+            </form>
         </div>
         </div>
     </div>

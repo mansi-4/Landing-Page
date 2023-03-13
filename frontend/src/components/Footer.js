@@ -6,7 +6,7 @@ function Footer() {
         <div className="container">
             <div className="row">
                     <div className="col-sm-12 text-center">
-                    <p id="copyright">&copy; 2023 <a href="/">offline2online</a>. All rights reserved</p>
+                    <p id="copyright">&copy; 2023 <a href="/">offlinetoonline</a>. All rights reserved</p>
                     </div>
                 </div>
         </div>

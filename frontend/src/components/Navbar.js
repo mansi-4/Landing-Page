@@ -5,7 +5,7 @@ function Navbar(){
   return (
     <nav className="navbar navbar-expand-lg navbar-light navbar-float">
                 <div className="container">
-                    <Link to="/" className="navbar-brand">Offine2<span className="text-primary">Online.</span></Link>
+                    <Link to="/" className="navbar-brand">OffineTo<span className="text-primary">Online</span></Link>
 
                     <button className="navbar-toggler" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
@@ -14,7 +14,7 @@ function Navbar(){
                     <div className="navbar-collapse collapse" id="navbarContent">
                     <ul className="navbar-nav ml-lg-4 pt-3 pt-lg-0">
                         <li className="nav-item active">
-                        <a href='#services' className="nav-link">Home</a>
+                        <a href='/' className="nav-link">Home</a>
                         </li>
                         <li className="nav-item">
                         <a href="#about" className="nav-link">About</a>
@@ -33,9 +33,9 @@ function Navbar(){
                         </li>
                     </ul>
 
-                    {/* <div className="ml-auto">
+                    <div className="ml-auto">
                         <a href="#pricing" className="btn btn-outline rounded-pill">Get a Quote</a>
-                    </div> */}
+                    </div>
                     </div>
                 </div>
                 </nav>

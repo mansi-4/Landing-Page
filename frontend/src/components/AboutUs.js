@@ -15,7 +15,7 @@ function AboutUs() {
         <div className="col-lg-6 py-3 wow fadeInRight">
             <h2 className="title-section">We're <span className="marked">Unbeatable</span> Team of Creatives People</h2>
             <div className="divider"></div>
-            <p>Welcome to offline2online! We are passionate about helping our customers seamlessly manage their business online.
+            <p>Welcome to OfflineToOnline! We are passionate about helping our customers seamlessly manage their business online.
                  Our services are designed to simplify the billing process, manage inventory, and enhance customer experience.</p>
             {/* <div className="img-place mb-3"> */}
             {/* <img src=" assets/img/testi_image.png" alt=""/> */}

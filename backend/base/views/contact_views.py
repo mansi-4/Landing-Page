@@ -3,7 +3,7 @@ from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from rest_framework import status
 from rest_framework.exceptions import AuthenticationFailed
-from base.models import Users
+from base.models import Contact
 from django.contrib.auth.hashers import make_password, check_password
 import jwt, datetime
 from django.core.mail import send_mail
@@ -13,11 +13,16 @@ from django.conf import settings
 @api_view(['POST'])
 def createContact(request):
     data=request.data
-    print(data)
     name=data["name"]
     email=data["email"]
     message=data["message"]
     try:
+        Contact.objects.create(
+            name=name,
+            email=email,
+            message=message,
+            status=0
+        )
         send_mail(
             subject='Thank you for getting in touch! ',
             message=f'''
