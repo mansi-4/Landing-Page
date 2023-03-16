@@ -31,7 +31,7 @@ def createContact(request):
                 One of our colleagues will get back in touch with you soon!\n
                 Have a great day!\n
                 Thanks & Regards, 
-                Offline2Online Team.
+                OfflineToOnline Team.
 
             ''',
             from_email=settings.EMAIL_HOST_USER,

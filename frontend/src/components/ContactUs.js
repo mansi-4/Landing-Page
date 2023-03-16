@@ -47,7 +47,7 @@ function ContactUs() {
             </li> */}
             <li>
                 <div className="icon"><span className="mai-mail"></span></div>
-                <div className="content"><p>offlinetoonline@gmail.com</p></div>
+                <div className="content"><p>offlinetoonlinenow@gmail.com</p></div>
             </li>
             {/* <li>
                 <div className="icon"><span className="mai-phone-portrait"></span></div>
